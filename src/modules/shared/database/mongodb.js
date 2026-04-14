@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import asyncHandler from "../utils/asyncHandler.js";
+import {asyncHandler} from "../utils/asyncHandler.js";
 
 const MAX_RETRY =5;
 const INITIAL_BACKOFF_DELAY = 1000;
